@@ -1,0 +1,38 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="Student Information System.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"Student Information System.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"MSBIND.DLL"
+"MSSTDFMT.DLL"
+"msadox28.tlb"
+"MSDBRPTR.DLL"
+"MSDERUN.DLL"
+"MSCOMCT2.OCX"
+"MSADODC.OCX"
+"COMDLG32.OCX"
+"MSDATGRD.OCX"
+"MSCOMM32.OCX"
+"MSDATLST.OCX"
+"msado20.tlb"
+"msadomd28.tlb"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
